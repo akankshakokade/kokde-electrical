@@ -1,5 +1,5 @@
 {
-  "name": "infantile-friendly-turtle",
+  "name": "kokde-electrical",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -20,8 +20,8 @@
     "util": "^0.12.5"
   },
   "scripts": {
-    "start": "npm start",
-    "build": "npm run build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
   },
