@@ -20,8 +20,10 @@ const Testimonial17 = (props) => {
             {props.content1 ?? (
               <Fragment>
                 <span className="testimonial17-text32">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  From design consultation to final execution, the Kokade
+                  Electricals team made the entire process smooth. They are
+                  professional, punctual, and their work quality speaks for
+                  itself.
                 </span>
               </Fragment>
             )}
@@ -44,7 +46,7 @@ const Testimonial17 = (props) => {
                     <strong className="thq-body-large">
                       {props.author1Name ?? (
                         <Fragment>
-                          <span className="testimonial17-text26">John Doe</span>
+                          <span className="testimonial17-text26">Raj Mehra</span>
                         </Fragment>
                       )}
                     </strong>
@@ -52,7 +54,7 @@ const Testimonial17 = (props) => {
                       {props.author1Position ?? (
                         <Fragment>
                           <span className="testimonial17-text25">
-                            CEO, Company ABC
+                            CEO, Company k flex
                           </span>
                         </Fragment>
                       )}
@@ -213,7 +215,7 @@ const Testimonial17 = (props) => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 Testimonial17.defaultProps = {

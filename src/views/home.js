@@ -110,9 +110,20 @@ const Home = (props) => {
       ></Navbar8> */}
       <Hero17
         action2={
-          <Fragment>
-            <span className="home-text114">Learn More</span>
-          </Fragment>
+          // <Fragment>
+          //   <span className="home-text114">Learn More</span>
+          // </Fragment>
+          <Link
+            to="/learn-more"
+            className="hero17-text5"
+            style={{
+              textDecoration: "none",
+              color: "white",
+              fontWeight: "bold",
+            }}
+          >
+            Learn More
+          </Link>
         }
         action1={
           <Fragment>
@@ -579,22 +590,22 @@ const Home = (props) => {
       <Testimonial17
         author2Position={
           <Fragment>
-            <span className="home-text192">COO, Company XYZ</span>
+            <span className="home-text192">COO, Company ITC ltd</span>
           </Fragment>
         }
         author1Position={
           <Fragment>
-            <span className="home-text193">CEO, Company ABC</span>
+            <span className="home-text193">CEO, Company Wheels India ltd</span>
           </Fragment>
         }
         author1Name={
           <Fragment>
-            <span className="home-text194">John Doe</span>
+            <span className="home-text194">Sanket Kale</span>
           </Fragment>
         }
         author3Name={
           <Fragment>
-            <span className="home-text195">David Johnson</span>
+            <span className="home-text195">Raj Mishra</span>
           </Fragment>
         }
         review2={
@@ -607,30 +618,35 @@ const Home = (props) => {
         }
         author2Name={
           <Fragment>
-            <span className="home-text197">Jane Smith</span>
+            <span className="home-text197">Sylvester Michel</span>
           </Fragment>
         }
         author4Position={
           <Fragment>
-            <span className="home-text198">CTO, Company ZYX</span>
+            <span className="home-text198">
+              CTO, Company PV Sons Corn PVT LTD
+            </span>
           </Fragment>
         }
         author4Name={
           <Fragment>
-            <span className="home-text199">Sarah Williams</span>
+            <span className="home-text199">Sarah Rane</span>
           </Fragment>
         }
         content1={
           <Fragment>
             <span className="home-text200">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              From design consultation to final execution, the Kokade
+              Electricals team made the entire process smooth. They are
+              professional, punctual, and their work quality speaks for itself.
             </span>
           </Fragment>
         }
         author3Position={
           <Fragment>
-            <span className="home-text201">CFO, Company 123</span>
+            <span className="home-text201">
+              CFO, Company Envalior India pvt ltd
+            </span>
           </Fragment>
         }
         review1={

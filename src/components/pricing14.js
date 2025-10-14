@@ -73,7 +73,7 @@ const Pricing14 = (props) => {
               onClick={() => setIsMonthly(false)}
               className="pricing14-button13 thq-button-outline thq-button-animated"
             >
-              <span className="thq-body-small" style={{color:"white"}}>Yearly</span>
+              <span className="thq-body-small" style={{color:"white "}}>Yearly</span>
             </button>
           )}
         </div>

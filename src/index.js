@@ -46,6 +46,7 @@ import Navbar8 from "./components/navbar8";
 import Footer4 from "./components/footer4";
 import ContactUs from "./components/ContactUs";
 import GetStarted from "./components/GetStarted";
+import LearnMore from "./views/LearnMore";
 const App = () => {
   return (
     <Router>
@@ -56,6 +57,7 @@ const App = () => {
         <Route exact path="/about-us" component={AboutUs} />
         <Route exact path="/contact-us" component={ContactUs} />
         <Route exact path="/get-started" component={GetStarted} />
+        <Route exact path="/learn-more" component={LearnMore}/>
         <Route path="*" component={NotFound} />
         <Redirect to="*" />
       </Switch>

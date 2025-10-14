@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-
+import { Link } from "react-router-dom";
 import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
@@ -45,9 +45,20 @@ const Hero17 = (props) => {
           <button className="thq-button-outline hero17-button2">
             <span className="thq-body-small">
               {props.action2 ?? (
-                <Fragment>
-                  <span className="hero17-text5">Learn More</span>
-                </Fragment>
+                // <Fragment>
+                //   <span className="hero17-text5">Learn More</span>
+                // </Fragment>
+                <Link
+                  to="/learn-more"
+                  className="hero17-text5"
+                  style={{
+                    textDecoration: "none",
+                    color: "#0066cc",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Learn More
+                </Link>
               )}
             </span>
           </button>
@@ -214,7 +225,7 @@ const Hero17 = (props) => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 Hero17.defaultProps = {
