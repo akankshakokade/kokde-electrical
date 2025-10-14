@@ -6,9 +6,9 @@
     "start": "npx craco start",
     "build": "npx craco build",
     "test": "npx craco test --env=jsdom",
-    "eject": "npx craco eject"
-  }
-  ,
+    "eject": "npx craco eject",
+    "postinstall": "chmod +x ./node_modules/.bin/craco"
+  },
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@emailjs/browser": "^4.4.1",
